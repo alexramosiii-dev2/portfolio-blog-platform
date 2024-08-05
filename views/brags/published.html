@@ -5,29 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Published</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../../public/style.css">
+
 </head>
 <body>
     <header>
-        <div class="header-left">
-            <p id="logo">&lt;Bragger/&gt;</p>
-        </div>
-
-        <div class="header-right">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <a href="">My brags</a>
-            <button>BRAG SOMETHING!</button>
-            <a href="#"><img src="" alt="" width="43" height="43"></a>
+        <div class="header">
+            <div class="header-left">
+                <a href="#" id="logo">&lt;Bragger/&gt;</a>
+            </div>
+    
+            <div class="header-right">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="">My brags</a>
+                <button>BRAG SOMETHING!</button>
+                <img src="../../public/avatar_batman.png" alt="" width="43" height="43">
+            </div>
         </div>
     </header>
 
     <section class="profile">
         <div>
-            <img src="" alt="" width="160" height="160">
-            <p>John Doe</p>
-            <p>2.1k followers</p>
-            <p>5 brags</p>
+            <img src="../../public/avatar_batman.png" alt="" width="160" height="160">
+            <p class="profile-name">John Doe</p>
+            <p class="profile-follower-count">2.1k followers</p>
+            <p class="profile-brag-count">5 brags</p>
         </div>
     </section>
+
     <main>
 
 
@@ -38,7 +43,7 @@
         </nav>
 
 
-        <ul id="tag-group">
+        <ul class="tag-group">
             <li>Technology</li>
             <li>Fashion</li>
             <li>Food</li>
@@ -60,7 +65,7 @@
                     <div class="brag-header-left">
                         <p class="date">Bragged on January 1, 2001</p>
                     </div>
-                    <div class="brag-header-right">                        
+                    <div class="brag-header-right icon-group">                        
                         <i class="fa-solid fa-link"></i>
                         <i class="fa-solid fa-pen-to-square"></i>
                         <i class="fa-solid fa-box-archive"></i>
@@ -74,7 +79,7 @@
                 </div>
 
                 <div class="brag-footer">
-                    <div class="brag-card-footer-left">
+                    <div class="brag-footer-left">
                         <ul class="tag-group">
                             <li>Sport</li>
                             <li>Music</li>
@@ -86,5 +91,9 @@
             </div>
         </div>
     </main>
+
+    <footer>
+        <p>&copy; 2024 <a href="#">Alex Ramos</a>. All rights reserved.</p>
+    </footer>
 </body>
 </html>

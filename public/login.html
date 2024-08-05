@@ -3,24 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bragger Login</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <form action="POST">
-            <h1 id="logo">&lt;Bragger/&gt;</h1>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input id="email" type="text">
-            </div>
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input id="password" type="password">
-            </div>
+    <main class="form-container">
+        <div class="form">
+            <form action="POST">
+                <h1 id="logo">&lt;Bragger/&gt;</h1>
+                <p class="github-link">Made by <a href="#">Alex Ramos</a><i class="fab fa-github" style="font-size: 1rem;"></i></p>
 
-            <button type="submit">Submit</button>
-            <a href="register.html">New to bragger? Sign up here</a>
-        </form>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input id="email" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input id="password" type="password">
+                </div>
+    
+                <button type="submit">Login</button>
+                <a href="register.html" class="redirect-link">New to bragger? Sign up here</a>
+            </form>
+        </div>
     </main>
 </body>
 </html>

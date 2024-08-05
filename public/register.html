@@ -3,40 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bragger Register</title>
+    <title>Register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <form action="POST">
-            <h1 id="logo">&lt;Bragger/&gt;</h1>
-            <div class="form-group">
-                <label for="password">First name</label>
-                <input id="password" type="text">
-            </div>
-            
-            <div class="form-group">
-                <label for="password">Last name</label>
-                <input id="password" type="text">
-            </div>
+    <main class="form-container">
+        <div class="form">
+            <form action="POST">
+                <h1 id="logo">&lt;Bragger/&gt;</h1>
+                <p class="github-link">Made by <a href="#">Alex Ramos</a><i class="fab fa-github" style="font-size: 1rem;"></i></p>
 
-            <div class="form-group">
-                <label for="email">Email address</label>
-                <input id="email" type="email">
-            </div>
+                <div class="form-group">
+                    <label for="password">First name</label>
+                    <input id="password" type="text">
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Last name</label>
+                    <input id="password" type="text">
+                </div>
 
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input id="password" type="password">
-            </div>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input id="email" type="email">
+                </div>
 
-            <div class="form-group">
-                <label for="confirm_password">Confirm password</label>
-                <input id="confirm_password" type="password">
-            </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input id="password" type="password">
+                </div>
 
-            <button type="submit">Submit</button>
-            <a href="login.html">Already have an account? Login here</a>
-        </form>
+                <div class="form-group">
+                    <label for="confirm_password">Confirm password</label>
+                    <input id="confirm_password" type="password">
+                </div>
+
+                <button type="submit">Register</button>
+                <a href="login.html" class="redirect-link">Already have an account? Login here</a>
+            </form>
+        </div>
     </main>
 </body>
 </html>
